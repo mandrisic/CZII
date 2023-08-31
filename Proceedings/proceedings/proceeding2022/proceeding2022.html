@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/izrezani.png" type="image/icon type">
+  <link rel="stylesheet" href="styles/zbornik.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
+  <title>Proceedings</title>
+</head>
+
+<body>
+    <header>
+      <div class="header-wrapper">
+      <div class="logo">
+        <a href="../../../index.html">
+          <img src="assets/logo3.png" alt="Logo">
+        </a>
+      </div>
+      <nav>
+        <div class=" topnav" id="myTopnav">
+            <a href="../../../index.html" class="active" id="home">Home</a>
+            <a href="../../../Program/index.html" id="program">Programme</a>
+            <div class="dropdown">
+              <button class="dropbtn" id="congresses">Congresses
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="../../../Congresses/INTERCON_2021/index.html">INTER_CON 2021</a>
+                <a href="../../../Congresses/INTERCON_2021/index.html">INTER_CON 2022</a>
+              </div>
+            </div>
+            <div class="dropdown" id="proceedings">
+              <button class="dropbtn">Proceedings
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="../proceeding2021/proceeding2021.html"><i>Interdisciplinarity in Theory and Practice</i> </a>
+                <a href="../proceeding2022/proceeding2022.html"><i>Challenges of Education</i> </a>
+              </div>
+            
+            </div>
+            <a href="../../../About_us/index.html" id="about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      </nav>
+    </div>
+    </header>
+  </section>
+
+<!--- Unutar ovog dijela mijenja se naslov i fotografija naslovnice:
+
+unutar src="assets/cover2022.jpg"  se mijenja fotografija
+unutar <h1> naslov, a unutar <p> tekst o broju članaka-->
+
+  <body>
+    <div class="cover-container">
+      <img class="cover-image" src="assets/cover2022.jpg" alt="Cover Image" />
+      <div class="cover-content">
+        <h1>Challenges of Education, 2022</h1></br>
+        <p>35 articles in this issue</p>
+      </div>
+    </div>
+
+<!--- Unutar ovog dijela mijenjaju se i dodavaju radovi, kao što je lako vidljivo iz koda, unutar <h2> se mijenja naslov, dok u naredna dva <p> 
+  elementa se mijenjaju podaci o imenu i prezimenu autora te o detaljima -->
+
+<!--- Ukoliko želite dodati još jedan rad, kopirajte ovaj jedan dio:
+  "<a href="" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> </h2>
+            <p class="proceeding-details"></p>
+            <p class="proceeding-details"> Country | Published: Nov 2022 | Pages: 27 </p>
+          </div>
+          <img src="" alt="Proceeding 1" />
+        </div>
+      </a>"
+  ispunite ga informacijama i nadodajte dolje na niže naznačeno mjesto  -->
+
+    <div class="proceedings-container">
+      <a href="../../html/INTER_CON2022/alesevic_balic-rahmanovic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> The Role and Significance of 4C Competence in Training for Helping Professions
+            </h2>
+            <p class="proceeding-details">Emina Alešević & Smaila Balić Rahmanović</p>
+            <p class="proceeding-details"> Bosnia and Herzegovina | Published: Nov 2022 | Pages: 27 </p>
+          </div>
+          <img src="proceeding1.jpg" alt="Proceeding 1" />
+        </div> 
+      </a>
+      <a href="../../html/INTER_CON2022/josip-berdica.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Humane Education and Some Current Virtues of Legal Education</h2>
+            <p class="proceeding-details"> Josip Berdica </p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 28−29 </p>
+          </div>
+          <img src="proceeding2.jpg" alt="Proceeding 2" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/yarong-chen.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> An Unfinished Mission: UNESCO in Deploying Education and Science for Global
+              Development, 1945–1975</h2>
+            <p class="proceeding-details"> Yarong Chen </p>
+            <p class="proceeding-details"> China | Published: Nov 2022 | Pages: 30−31</p>
+          </div>
+          <img src="proceeding3.jpg" alt="Proceeding 3" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/helena-dragic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Communication in Teaching – Contemporary Challenges and Opportunities</h2>
+            <p class="proceeding-details"> Helena Dragić </p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 32−33</p>
+          </div>
+          <img src="proceeding4.jpg" alt="Proceeding 4" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/dremel_fapali.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Gender Equality at the University: Challenges and Opportunities</h2>
+            <p class="proceeding-details">Anita Dremel & Vlatka Fapali </p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 34−35</p>
+          </div>
+          <img src="proceeding5.jpg" alt="Proceeding 5" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/durdevic_marjanic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Unrecognized Success: Ecocriticism in Southeast Europe </h2>
+            <p class="proceeding-details">Goran Đurđević & Suzana Marjanić </p>
+            <p class="proceeding-details"> China | Croatia | Published: Nov 2022 | Pages: 36−37</p>
+          </div>
+          <img src="proceeding6.jpg" alt="Proceeding 6" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/filipovic-sergej_filipovic-marija.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Challenges of Organizing History School Practice During COVID-19 Crisis</h2>
+            <p class="proceeding-details">Sergej Filipović & Marija Filipović</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 38 </p>
+          </div>
+          <img src="proceeding7.jpg" alt="Proceeding 7" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/glavas_stascik.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Is it Time to Change the Assessment System in Primary School Education in
+              Croatia? </h2>
+            <p class="proceeding-details">Amanda Glavaš & Azra Staščik</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 39−40</p>
+          </div>
+          <img src="proceeding8.jpg" alt="Proceeding 8" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/miljenko-hajdarovic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Teaching History and
+              Shaping Individual Identity in Croatia </h2>
+            <p class="proceeding-details">Miljenko Hajdarović</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 41−42</p>
+          </div>
+          <img src="proceeding9.jpg" alt="Proceeding 9" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/alen-hasikic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Education Systems of Croatia and Singapore from a Comparative Perspective</h2>
+            <p class="proceeding-details">Alen Hasikić</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 43−44</p>
+          </div>
+          <img src="proceeding10.jpg" alt="Proceeding 10" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/horvat_jezabek_radosevic-cica.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Learning Based on Working in the Educational Sector of “Health and Social Care”
+            </h2>
+            <p class="proceeding-details">Kristina Horvat, Sanja Ježabek & Marija Radošević Čiča</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 45−46</p>
+          </div>
+          <img src="proceeding11.jpg" alt="Proceeding 11" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/jelas_plantosar.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Challenges of the Development of Archival Pedagogy in Croatia</h2>
+            <p class="proceeding-details">Danijel Jelaš & Petra Plantosar</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 47−48</p>
+          </div>
+          <img src="proceeding12.jpg" alt="Proceeding 12" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/denis-jurkovic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Teacher’s Contribution to Students’ Intercultural Competence</h2>
+            <p class="proceeding-details"> Denis Jurković</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 49−50</p>
+          </div>
+          <img src="proceeding13.jpg" alt="Proceeding 13" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/kiss_mozar.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Ethical Issues in the Work of Educational Institutions</h2>
+            <p class="proceeding-details"> Irena Kiss & Aleksandra Možar</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 51−52 </p>
+          </div>
+          <img src="proceeding14.jpg" alt="Proceeding 14" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/damir-marinic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Educational Challenges in Global Society: Integration-Processing Approach</h2>
+            <p class="proceeding-details">Damir Marinić</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 53−54</p>
+          </div>
+          <img src="proceeding15.jpg" alt="Proceeding 15" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/martinovic_golenko_badurina.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Digital Literacy in the Service of Higher Education</h2>
+            <p class="proceeding-details">Ivana Martinović, Dejana Golenko & Boris Badurina</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 55−56</p>
+          </div>
+          <img src="proceeding16.jpg" alt="Proceeding 16" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/matulin-jelic_spoljaric.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">The Importance of Sensory Integration in Promoting Inclusion in Preschool
+              Children</h2>
+            <p class="proceeding-details">Marija Matulin Jelić & Nikoleta Špoljarić</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 57−58</p>
+          </div>
+          <img src="proceeding17.jpg" alt="Proceeding 17" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/milisa_josipovic_spasenovski.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Contribution of Liberal Theory to the Criticism of the Egalitarian Conception
+              of Work and Education</h2>
+            <p class="proceeding-details">Zlatko Miliša, Igor Josipović & Nemanja Spasenovski</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 59−60</p>
+          </div>
+          <img src="proceeding18.jpg" alt="Proceeding 18" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/sanda-milosevic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Supporting Students in Learning and Behavior</h2>
+            <p class="proceeding-details">Sanda Milošević</p>
+            <p class="proceeding-details"> Bosnia and Herzegovina | Published: Nov 2022 | Pages: 61−62</p>
+          </div>
+          <img src="proceeding19.jpg" alt="Proceeding 19" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/milosevic_pintek.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Presence of Research Papers
+              by Croatian Social Sciences and Humanities Researchers on Interdisciplinarity in Databases</h2>
+            <p class="proceeding-details">Marija Milošević & Lucija Pintek</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 63−64</p>
+          </div>
+          <img src="proceeding20.jpg" alt="Proceeding 20" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/julijana_mladenovska-tesija.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Space, Body and Power at the Intersection of Virtual Reality and Peace
+              Education</h2>
+            <p class="proceeding-details">Julijana Mladenovska-Tešija</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 65 -66</p>
+          </div>
+          <img src="proceeding21.jpg" alt="Proceeding 21" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/nebojsa-mudri.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Does Education Make Sense in Contemporary Culture of Idleness?</h2>
+            <p class="proceeding-details">Nebojša Mudri</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 67 </p>
+          </div>
+          <img src="proceeding22.jpg" alt="Proceeding 22" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/papo_potlimbrzovic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Blaženka Despot’s Criticism of Specialization</h2>
+            <p class="proceeding-details">Demian Papo & Hrvoje Potlimbrzović</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 68−69</p>
+          </div>
+          <img src="proceeding23.jpg" alt="Proceeding 23" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/dejan-pernjak.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Education in the Media Space on the Example of the Local Web Portals</h2>
+            <p class="proceeding-details">Dejan Pernjak</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 70 </p>
+          </div>
+          <img src="proceeding24.jpg" alt="Proceeding 24" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/raul-raunic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Normative Concept of Education and Teaching of Philosophy</h2>
+            <p class="proceeding-details">Raul Raunić</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 71−72</p>
+          </div>
+          <img src="proceeding25.jpg" alt="Proceeding 25" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/raus_zagar.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Hybrid Work as a Challenge or Relief in Learning</h2>
+            <p class="proceeding-details">Boris Rauš & Tea Žagar</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 73</p>
+          </div>
+          <img src="proceeding26.jpg" alt="Proceeding 26" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/jan-cornelius-schmidt.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Philosophy
+              of Interdisciplinarity. Towards a Criticial-Reflexive Research Program</h2>
+            <p class="proceeding-details">Jan Cornelius Schmidt</p>
+            <p class="proceeding-details"> Germany | Published: Nov 2022 | Pages: 74−75</p>
+          </div>
+          <img src="proceeding27.jpg" alt="Proceeding 27" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/seles_hercog_sudarevic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">The Need to Introduce Non-Formal Education: the Basis of Information Literacy
+              for Four-Year High School Students</h2>
+            <p class="proceeding-details">Marin Seleš, Tanja Hercog & Andrea Sudarević</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 76−77</p>
+          </div>
+          <img src="proceeding28.jpg" alt="Proceeding 28" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/slijepcevic_dabrowska-prokopowska.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Green Higher Education in the Function of Green Economy</h2>
+            <p class="proceeding-details">Dušanka Slijepčević & Ewa Dabrowska-Prokopowska</p>
+            <p class="proceeding-details"> Bosnia and Herzegovina | Poland | Published: Nov 2022 | Pages: 78−79</p>
+          </div>
+          <img src="proceeding29.jpg" alt="Proceeding 29" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/amina-smajovic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Compass for Redesigning Educational Systems</h2>
+            <p class="proceeding-details">Amina Smajović</p>
+            <p class="proceeding-details"> Bosnia and Herzegovina | Published: Nov 2022 | Pages: 80−82</p>
+          </div>
+          <img src="proceeding30.jpg" alt="Proceeding 30" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/nemanja-spasenovski.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">The Educational System in Selected Economic Theories</h2>
+            <p class="proceeding-details">Nemanja Spasenovski</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 83−84</p>
+          </div>
+          <img src="proceeding31.jpg" alt="Proceeding 31" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/rick-szostak.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">Teaching About Interdisciplinarity</h2>
+            <p class="proceeding-details">Rick Szostak</p>
+            <p class="proceeding-details"> Canada | Published: Nov 2022 | Pages: 85−86</p>
+          </div>
+          <img src="proceeding32.jpg" alt="Proceeding 32" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/ivana_saric-sokcevic.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">System in
+              Crisis – an Attempt to Overcome the Contemporary Challenges of Educational System</h2>
+            <p class="proceeding-details">Ivana Šarić Šokčević</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 87−88</p>
+          </div>
+          <img src="proceeding33.jpg" alt="Proceeding 33" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/julie_thompson-klein.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title"> Inter- and Transdisciplinary Teaching and Learning for the 21st Century</h2>
+            <p class="proceeding-details">Julie Thompson Klein</p>
+            <p class="proceeding-details"> United States of America | Published: Nov 2022 | Pages: 89−90</p>
+          </div>
+          <img src="proceeding34.jpg" alt="Proceeding 34" />
+        </div>
+      </a>
+      <a href="../../html/INTER_CON2022/nikica-torbica.html" class="custom-link">
+        <div class="proceeding">
+          <div class="proceeding-content">
+            <h2 class="proceeding-title">The
+              Role of Civil Society Organizations in Education for Active Citizenship – Waiting for GOOdot</h2>
+            <p class="proceeding-details">Nikica Torbica</p>
+            <p class="proceeding-details"> Croatia | Published: Nov 2022 | Pages: 91−92</p>
+          </div>
+          <img src="proceeding35.jpg" alt="Proceeding 35" />
+        </div>
+      </a>
+      <!-- Ovdje dodajte iskopirani kod, ukoliko želite dodati još jedan rad-->
+    </div>
+
+
+    <div class="spon">
+      <div class="sponsors">
+        <div class="our-sponsors">
+          <h4>Organizers and Sponsors</h4>
+          <div class="h_line"></div>
+        </div>
+        <div class="sponsor-list">
+          <ul>
+            <li>
+              <a href="https://www.ffos.unios.hr/">
+                <img src="assets/FFOS-logo.png" class="ffos" alt="Filozofski fakultet u Osijeku">
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unios.hr/">
+                <img src="assets/UNIOS_grb.svg.png" class="unios" alt="Sveučilište Josipa Jurja Strossmayera u Osijeku">
+              </a>
+            </li>
+            <li>
+              <a href="https://mzo.gov.hr/">
+                <img src="assets/mzos.jpg" class="mzos" alt="Ministarstvo znanosti i obrazovanja">
+              </a>
+            </li>
+            <li>
+            <a href="https://www.info.hazu.hr/jedinice/centar-za-znanstveni-rad-u-vinkovcima/">
+              <img src="assets/hazu.jpeg" class="hazu" alt="HAZU">
+            </a>
+					</li>
+            <li>
+              <a href="https://www.osijek.hr/">
+                <img src="assets/01_grb-grada-osijeka.gif" class="os" alt="Grad Osijek">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.obz.hr/index.php">
+                <img src="assets/obz.gif" class="obz" alt="Osječko-baranjska županija">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer class="footer">
+    <div class="left">
+      <a href="../../../index.html"><img src="assets/logo6.png" alt="Logo"></a>
+      <p><a href="../../../About_us/index.html">About Us</a></p>
+    </div>
+    <div class="center">
+      <p>Official e-address:</p>
+      <p><a href=mailto:cii@ffos.hr>cii@ffos.hr</a></p>
+      <p>Social Networks</p>
+      </br>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100063244718038"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/cii_ffos/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/@centarzainterdisciplinarna77"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <p>Location</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.0855204344934!2d18.6803641239639!3d45.558337017854846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce7a607148fa3%3A0x3f0cc9e48a295957!2sFaculty%20of%20Humanities%20and%20Social%20Sciences%2C%20University%20of%20Osijek!5e0!3m2!1sen!2shr!4v1683210541314!5m2!1sen!2shr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</html>
